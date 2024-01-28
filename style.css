@@ -13,7 +13,7 @@
 
 body{
     height: 1200px;
-    background-color :#ADDFFF;
+    background-color :#D8EFF8;
 }
 header{
     width: 100%;
@@ -33,7 +33,7 @@ header nav{
 
 .logo{
     font: 40px solid;
-    color: white;
+    color: #4070f4;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
@@ -71,47 +71,46 @@ nav .buttons a:hover{
     background-color: #4070f4;
 }
 
-.introduce{
+.Home{
     height: 90vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.introduce .welcome-text{
+.Home .welcome-text{
     padding: 10px;
     width: 50%;
     margin: 150px auto;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
-.introduce .welcome-text .hello{
+.Home .welcome-text .hello{
     font-size: 25px;
     color: #0E2431;
     padding: 3px;
 }
 
-.introduce .welcome-text .name{
+.Home .welcome-text .name{
     font-size: 60px;
     color: #0E2431;
     padding: 3px;
 
 }
 
-.introduce .welcome-text .job{
+.Home .welcome-text .job{
     font-size: 37px;
     color: #4070f4;
     padding: 3px;
 
 }
-.introduce .welcome-text .from{
+.Home .welcome-text .from{
     text-transform: capitalize;
     font-size:15px;
     font-family: 'Ubuntu', sans-serif;
     padding: 3px;
 }
 
-.introduce .welcome-text .contact{
+.Home .welcome-text .contact{
     font-size:20px ;
     color: white;
     padding: 15px;
@@ -121,17 +120,106 @@ nav .buttons a:hover{
 
 }
 
-.introduce .welcome-text .contact:hover{
+.Home .welcome-text .contact:hover{
 color: #4070f4;
 background-color: white;
 border: 1px solid #4070f4;
 }
 
 
-.introduce img{
-    background-color: #ADDFFF;
+.Home img{
+    margin-right: 40px;
+    background-color: #D8EFF8;
     width: auto;
-    
+    opacity: 1;
 }
+
+.about{
+    height: 75vh;
+    width: 100%;
+    background-color: white;
+}
+
+.about .text{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-weight: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.about .text p{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .text .two-lines{
+    width: 210px;
+    margin: auto;
+}
+.about .text .two-lines .line1{
+    width: 200px;
+    height: 5px;
+    margin: auto;
+    background-color: #4070f4;
+}
+.about .text .two-lines .line2{
+    width: 160px;
+    height: 5px;
+    margin: auto;
+    background-color: #4070f4;
+    margin-top: 10px;
+}
+
+.about .container{
+padding-top: 20px;
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+
+}
+
+.about .container img{
+    width: 280px;
+}
+
+.about .container .my-informaiton{
+    width: 500px;
+    height: auto;
+}
+
+.about .container .my-informaiton .header{
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about .container .my-informaiton .discription{
+
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5; /* You can adjust this value based on your preference */
+    padding-bottom: 20px;
+}
+
+.about .container .my-informaiton .cv{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: #4070f4;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 
